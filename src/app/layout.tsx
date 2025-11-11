@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   description: 'Essa seria a descrição dessa página.'
 }
 
-export default function RootLayout({
-  children
-}: Readonly<{
+type RootLayoutProps = {
   children: React.ReactNode
-}>) {
+}
+
+export default function RootLayout({ children }: Readonly<RootLayoutProps>) {
   return (
     <html lang="en">
       <body>{children}</body>
