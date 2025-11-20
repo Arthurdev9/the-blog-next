@@ -12,7 +12,7 @@ const Header = () => {
           'lg:md:text-7xl/normal md:py-12'
         )}
       >
-        <Link href="#">The Blog</Link>
+        <Link href={'/'}>The Blog</Link>
       </h1>
     </header>
   )
